@@ -2,8 +2,6 @@ module github.com/DustinHigginbotham/event-gen-user-example
 
 go 1.24.0
 
-tool github.com/DustinHigginbotham/event-gen
-
 require (
 	github.com/golang-migrate/migrate/v4 v4.18.2
 	github.com/google/uuid v1.6.0
@@ -11,7 +9,7 @@ require (
 )
 
 require (
-	github.com/DustinHigginbotham/event-gen v0.0.0-20250217033733-cc3dee383e91 // indirect
+	github.com/DustinHigginbotham/event-gen v0.0.0-20250217072015-9eb2f8761996 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
@@ -34,3 +32,5 @@ require (
 	modernc.org/strutil v1.1.3 // indirect
 	modernc.org/token v1.0.0 // indirect
 )
+
+tool github.com/DustinHigginbotham/event-gen
