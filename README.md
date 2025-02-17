@@ -1,6 +1,6 @@
 # Example: User from event-gen
 
-Still a work in progress, but everything present in the `gen` directory is automatically generated from `event-gen`.
+Still a work in progress, but everything present in the `gen` directory is automatically generated from [`event-gen`](https://github.com/DustinHigginbotham/event-gen).
 
 Exploring `cmd/users/main.go` will show you how to use the resulting system.
 
